@@ -1,10 +1,16 @@
 package com.zookeper.hoxtonjavazookeper;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class ZooAnimal {
-    private String name;
-    private String species;
-    private String origin;
-    private Boolean isHungry;
+    @Id
+    public Integer id;
+    public String name;
+    public String species;
+    public String origin;
+    public Boolean isHungry;
 
     public ZooAnimal(String name, String species, String origin, Boolean isHungry) {
         this.name = name;
