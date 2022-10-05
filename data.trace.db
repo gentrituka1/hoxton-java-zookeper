@@ -1,0 +1,3 @@
+2022-10-06 01:08:15 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ZOO" not found; SQL statement:
+INSERT INTO ZOO-ANIMALS (ID, IS_HUNGRY, NAME, ORIGIN, SPECIES) VALUES (1, TRUE, 'LEO', 'AFRICA', 'LIONS') [42102-214]
